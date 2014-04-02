@@ -1,0 +1,15 @@
+
+<legend>
+  <h1>Create a new product</h1>
+</legend>
+
+<%= form_for @product, :html => {:class => "form", :role => "form"} do |f| %>
+  
+  <%= render 'shared/error_messages', object: f.object %>
+
+  <%= f.text_field :name, :placeholder => "Name", :class => "form-control input-lg" %><br/>
+
+  <%= f.text_field :description, :placeholder => "Description", :class => "form-control input-lg" %><br />
+
+  <%= f.submit :class => "btn custom-btn " %>
+<% end %>

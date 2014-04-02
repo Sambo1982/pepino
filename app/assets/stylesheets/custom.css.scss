@@ -1,0 +1,155 @@
+@import "twitter/bootstrap";
+
+/* universal */
+
+html {
+  overflow-y: scroll;
+  height: 100%;
+}
+
+body {
+  padding-top: 70px;
+    height: 100%;
+
+
+
+  .container{
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 10px;
+
+  }
+}
+
+/* navbar */
+
+#top-nav{
+	margin-bottom: 30px;
+	nav.navbar-fixed-top {
+		border-bottom: 1px solid #dadfe1;
+		background: #f6f8f8;
+		padding: 10px 10px;
+		overflow: visible;
+
+		.navbar-header {
+
+	    a{
+	    height: 60px;
+	    background-repeat: no-repeat;
+	    padding-top: 23px;
+	    font-family:  sans-serif;
+			text-transform: uppercase;
+			font-size: 23px;
+			font-weight: 500;
+			letter-spacing: 1px;
+			color: #3e474c;
+			text-align: left;
+			text-decoration: none;
+			display: inline-block;
+			line-height: 16px;
+			text-shadow: 0px 2px 3px #555;
+			-webkit-transition: color 0.2s;
+			-moz-transition: color 0.2s;
+			-o-transition: color 0.2s;
+			transition: color 0.2s;
+	    }
+	    span.brand{
+	     color: #5bc4bf;
+	    }
+
+	    a:hover{
+	    	color: #5bc4bf;
+	    	span.brand{
+	    		color: #3e474c;
+	    	}
+
+	    }
+	  
+		}	
+
+		li{
+			line-height: 60px;
+		 a {
+
+			font-family:  sans-serif;
+			text-transform: uppercase;
+			font-size: 14px;
+			font-weight: 500;
+			letter-spacing: 1px;
+			color: #b0babf;
+			text-align: left;
+			text-decoration: none;
+			display: inline-block;
+			line-height: 16px;
+			-webkit-transition: color 0.2s;
+			-moz-transition: color 0.2s;
+			-o-transition: color 0.2s;
+			transition: color 0.2s;
+			}
+			a:hover{
+			 color: #3e474c;
+			}
+
+			a:active{
+			 color: #3e474c;
+			}
+		}
+	}
+}
+
+/* forms */
+
+
+legend.centered{
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  h1{
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-size: 50px;
+    color: #000;
+    font-weight: 100;
+  }
+  p.lead{
+  color: #737980;
+  font-size: 18px;
+  display: block;
+  -webkit-margin-after: .5em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  }
+}
+.custom-btn {
+  font-family: "Open Sans", sans-serif;
+  background-color: #3e474c;
+  text-decoration: none;
+
+  color: white;
+  border: 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.custom-btn:hover {
+  background-color: #5bc4bf; 
+}
+
+.form .form-control { margin-bottom: 10px; }
+@media (min-width:768px) {
+  #home{
+    margin-top:50px;
+  }
+}
+
+/* errors */
+
+#error_explanation{
+	
+	ul{
+		list-style-type: none;
+	}
+
+}

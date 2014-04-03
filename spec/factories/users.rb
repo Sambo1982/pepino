@@ -2,10 +2,10 @@
 
 FactoryGirl.define do
   factory :user do
-    name "MyString"
-    email "MyString"
-    password_digest "MyString"
-    remember_token "MyString"
+    name "Sam Carlsruh"
+    email "samcarlsruh@gmail.com"
+    password_digest "foobar"
+    remember_token "foobar"
     admin false
   end
 end

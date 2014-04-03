@@ -8,6 +8,7 @@ end
 
 
 root  'static_pages#home'
+match '/dashboard',  to: 'static_pages#dashboard', via: 'get'
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 

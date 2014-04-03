@@ -32,7 +32,7 @@ GEM
       sass (>= 3.2)
     arel (4.0.2)
     atomic (1.1.16)
-    bcrypt-ruby (3.0.1)
+    bcrypt-ruby (3.1.2)
     bootstrap-will_paginate (0.0.9)
       will_paginate
     builder (3.1.4)
@@ -231,7 +231,7 @@ PLATFORMS
 DEPENDENCIES
   ancestry
   anjlab-bootstrap-rails
-  bcrypt-ruby (= 3.0.1)
+  bcrypt-ruby (= 3.1.2)
   bootstrap-will_paginate (= 0.0.9)
   capybara
   coffee-rails (= 4.0.0)
@@ -254,6 +254,7 @@ DEPENDENCIES
   sass-rails (= 4.0.0)
   sdoc (= 0.3.20)
   selenium-webdriver
+  sprockets (= 2.11.0)
   sqlite3
   turbolinks (= 1.1.1)
   uglifier (= 2.1.1)
